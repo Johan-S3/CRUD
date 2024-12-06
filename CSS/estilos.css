@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+body{
+    background-color: var(--colorFondo);
+}
+.form, .button{
+    color: white;
+    display: block;
+    border: 1px solid var(--colorFormulario);
+    width: max-content;
+    margin: 0 auto;
+}
+.form{
+    padding: 30px;
+    margin: 5% auto;
+    border-color: var(--colorFormulario);
+    border-width: 2px;
+    border-radius: 40px;
+    filter: drop-shadow(0px 0px 5px white);
+    background-color:  var(--colorFormulario);
+}
+.form__tittle{
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form__label{
+    font-size: 18px;
+}
+.form__input--genero{
+    margin: 7px 0;
+    accent-color: var(--colorPrincipal);
+}
+
+.form__input{
+    border: none;
+    border-bottom: 0.1px solid var(--colorBordeInput);
+    color: var(--colorTexto);
+    padding-bottom: 2.5px;
+    width: 100%;
+    outline: none;
+    background-color:  var(--colorFormulario);
+}
+.form__input:focus{
+    border-bottom: 0.1px solid var(--colorPrincipal);
+}
+input[type="checkbox"]{
+    accent-color: var(--colorPrincipal);
+}
+.form__select{
+    border-radius: 40px;
+    padding: 2.5px;
+}
+option:checked{
+    background: var(--colorPrincipal);
+}
+.button, .form__button{
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 6px 13px;
+    background-color: var(--colorPrincipal);
+    color: white;
+    font-weight: bold;
+    border: none;
+    filter: drop-shadow(0px 0px 3px black);
+    cursor: pointer;
+}

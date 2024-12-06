@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+body{
+    background-color: var(--colorFondo);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap:80px;
+}
+.table{
+    border: 1px solid white; 
+    border-radius: 30px;
+    overflow: hidden;
+    border-spacing: 0;
+    background-color: var(--colorFormulario);
+    filter: drop-shadow(0px 0px 3px white);
+}
+th, td{
+    padding: 12px 15px;
+    text-align: center;
+    border: none;
+}
+.table__head tr{
+    background-color: var(--colorBordeInput);
+}
+.table__button{
+    border-radius: 10px;
+    background-color: white;
+    width: max-content;
+    padding: 5px 10px;
+    color: black;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.table__button:hover{
+    color: var(--colorPrincipal);
+}
+a{
+    text-decoration: none;
+}
+
+.button{
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 6px 13px;
+    background-color: var(--colorPrincipal);
+    color: white;
+    font-weight: bold;
+    border: none;
+    filter: drop-shadow(0px 0px 3px black);
+    cursor: pointer;
+}
