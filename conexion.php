@@ -2,7 +2,7 @@
 class Conexion
 {
     private $conexion;
-    private $db = 'adso';
+    private $db = 'johanPolo';
     private $host = 'localhost';
     private $usuario = 'johan31';
     private $contraseña = '0421';

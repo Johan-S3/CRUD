@@ -1,5 +1,5 @@
 create user 'johan31'@'localhost' identified by '0421';
-create database adso;
-use adso;
-grant all privileges on adso.* to 'johan31'@'localhost';
+create database johanPolo;
+use johanPolo;
+grant all privileges on johanPolo.* to 'johan31'@'localhost';
 FLUSH PRIVILEGES;
